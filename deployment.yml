@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: kubepro
-          image: vino/kubepro
+          image: niranjanakathirvel/kubepro
           ports:
             - containerPort: 80
           command: ["/bin/sh", "-c"]
